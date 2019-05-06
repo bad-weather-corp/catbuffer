@@ -38,7 +38,7 @@ class JavaFileGenerator:
         self.code += ['import java.io.DataOutputStream;']
 
     def set_package(self):
-        self.code += ['package io.nem.catapult.builders;'] + ['']
+        self.code += ['package io.proximax.transport.builders;'] + ['']
 
     def update_code(self, generator):
         generated_class = generator.generate()

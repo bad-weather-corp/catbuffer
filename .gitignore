@@ -5,3 +5,6 @@ __pycache__/
 .idea
 .vscode/
 _generated/
+/.project
+/.pydevproject
+/generate_all.sh
